@@ -1,0 +1,95 @@
+# ===========================
+# macOS system files
+# ===========================
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# ===========================
+# VS Code settings
+# ===========================
+.vscode/
+.history/
+*.code-workspace
+
+# ===========================
+# Node / NPM (in case folder has JS tools)
+# ===========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# ===========================
+# Build / Temp Files
+# ===========================
+dist/
+build/
+tmp/
+temp/
+*.tmp
+*.log
+
+# ===========================
+# Git temporary files
+# ===========================
+.gitignore_global
+*.orig
+
+# ===========================
+# System and shell junk
+# ===========================
+.bash_history
+.zsh_history
+.zprofile
+.profile
+.env
+*.env
+
+# ===========================
+# Python / Pip cache (if exists)
+# ===========================
+__pycache__/
+*.pyc
+
+# ===========================
+# Android Emulator / AVD directories
+# CAUTION: these are HUGE (2–10 GB)
+# ===========================
+.android/
+*.avd
+*.ini
+
+# ===========================
+# IntelliJ / JetBrains IDEs
+# ===========================
+.idea/
+*.iml
+
+# ===========================
+# OS backup files
+# ===========================
+*~
+*.swp
+*.swo
+
+# ===========================
+# Images cache / Export junk
+# ===========================
+*.psd
+*.xcf
+*.sketch
+
+# ===========================
+# Ignore EVERYTHING except your template
+# ===========================
+# Allow your actual project files
+!/assets/
+!/index.html
